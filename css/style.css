@@ -84,7 +84,7 @@ ul {
     padding: 1.4rem 0;
     font-size: 2rem;
 }
-h1{
+.logo{
     font-family: 'Permanent Marker', cursive;
     color: var(--text-gray)
 }
@@ -104,6 +104,59 @@ h1{
 
 
 /*-------x-------navigation------x-----*/
+
+
+/*-----------Main section-------------*/
+main .site-title {
+    background-image: url('../assets/assets/jack-anstey-zS4lUqLEiNA-unsplash.jpg');
+    background-size:cover;
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+
+}
+main .site-title .site-background {
+    padding-top:10rem;
+    text-align: center;
+    color: var(--white);
+    font-size:2rem
+}
+main .site-title .btn {
+    background-color: rgb(158, 193, 216);
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border:none;
+    font-size: 1rem;
+    font-family: 'Abel';
+    cursor: pointer;
+}
+main .site-title .btn:hover {
+    border:white solid 1px;
+    background-color: transparent;
+    color:white
+}
+main .site-title h3 {
+    margin: .3rem
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----x-----Main section-------x-----*/
 
 /* Viewport less or equal to 750px*/
 @media only screen and (max-width: 750px) {
